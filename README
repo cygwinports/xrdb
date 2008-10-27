@@ -1,25 +1,24 @@
 xrdb
 ------------------------------------------
-Xorg X server resource database utility
+X.Org X server resource database utility
 
 Runtime requirements:
-  cygwin-1.5.24-2
-  libX11_6-1.1.3-1
-  libXmuu1-1.0.3-1
+  cygwin-1.5.25-15
+  libX11_6-1.1.5-1
+  libXmuu1-1.0.4-1
 
 Build requirements:
 (besides corresponding devel packages)
-  cygwin-1.5.24-2
-  autoconf2.5-2.61-1
-  automake1.9-1.9.6-2
-  binutils-20060817-1
-  cygport-0.3.5-1
-  gawk-3.1.5-4
+  autoconf2.5-2.63-1
+  automake1.10-1.10.1-1
+  binutils-20080624-2
+  cygport-0.4.2-1
+  gawk-3.1.6-1
   gcc-core-3.4.4-3
   make-3.81-1
-  pkg-config-0.21-1
+  pkg-config-0.23a-2
   sed-4.1.5-2
-  xorg-util-macros-1.1.5-1
+  xorg-util-macros-1.1.6-1
 
 Canonical website:
   http://xorg.freedesktop.org/
@@ -45,7 +44,6 @@ This will create:
 Files included in the binary package:
 
   /usr/bin/xrdb.exe
-  /usr/share/doc/Cygwin/xrdb-1.0.4.README
   /usr/share/doc/xrdb-1.0.4/COPYING
   /usr/share/doc/xrdb-1.0.4/ChangeLog
   /usr/share/man/man1/xrdb.1.gz
@@ -53,6 +51,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 1.0.5-1 -----
+Version bump for X11R7.4.
 
 ----- version 1.0.4-1 -----
 Version bump for X11R7.3.
