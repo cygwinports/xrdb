@@ -1,4 +1,4 @@
 category: X11
-requires: cygwin libX11_6 libXmuu1
+requires: libX11_6 libXmuu1
 sdesc: "X.Org X server resource database utility"
 ldesc: "X.Org X server resource database utility"
